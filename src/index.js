@@ -17,7 +17,7 @@ import { Main } from './components/Main/Main'
 
 const myRouter = createBrowserRouter([
   {
-    path: '/',
+    path: '/githubpages2',
     element: <App />,
     children: [
       {
