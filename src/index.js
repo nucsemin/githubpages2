@@ -17,7 +17,7 @@ import { Main } from './components/Main/Main'
 
 const myRouter = createBrowserRouter([
   {
-    path: '/githubpages2',
+    path: '/githubpages2/',
     element: <App />,
     children: [
       {
@@ -25,20 +25,20 @@ const myRouter = createBrowserRouter([
         element: <Main />,
       },
       {
-        path: 'githubpages2/contacts',
+        path: 'contacts',
         element: <ContactsPage />,
       },
       {
-        path: 'githubpages2/todos/',
+        path: 'todos/',
         element: <TodosPage />,
 
       },
       {
-        path: 'githubpages2/todos/:todoId',
+        path: 'todos/:todoId',
         element: <TodoDetail />,
       },
       {
-        path: 'githubpages2/todos/create',
+        path: 'todos/create',
         element: <TodosCreate />,
       },
     ],
