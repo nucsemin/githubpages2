@@ -25,20 +25,20 @@ const myRouter = createBrowserRouter([
         element: <Main />,
       },
       {
-        path: 'contacts',
+        path: 'githubpages2/contacts',
         element: <ContactsPage />,
       },
       {
-        path: 'todos/',
+        path: 'githubpages2/todos/',
         element: <TodosPage />,
 
       },
       {
-        path: 'todos/:todoId',
+        path: 'githubpages2/todos/:todoId',
         element: <TodoDetail />,
       },
       {
-        path: 'todos/create',
+        path: 'githubpages2/todos/create',
         element: <TodosCreate />,
       },
     ],
