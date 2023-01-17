@@ -43,8 +43,8 @@ const myRouter = createBrowserRouter([
       },
     ],
   },
-  { basename: "/githubpages2" }
-])
+], { basename: "/githubpages2" }
+)
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
