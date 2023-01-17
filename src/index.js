@@ -17,7 +17,7 @@ import { Main } from './components/Main/Main'
 
 const myRouter = createBrowserRouter([
   {
-    path: '/githubpages2/',
+    path: '/',
     element: <App />,
     children: [
       {
@@ -43,6 +43,7 @@ const myRouter = createBrowserRouter([
       },
     ],
   },
+  { basename: "/githubpages2" }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
