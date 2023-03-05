@@ -19,7 +19,7 @@ function Header() {
               }
               to="/contacts"
             >
-              Contacts
+              <div className={headerStyles.icon}></div>
             </NavLink>
           </li>
           <li>
