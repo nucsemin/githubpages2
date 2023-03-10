@@ -19,3 +19,9 @@
 .activeLink {
 	color: red;
 }
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/cart.svg');
+}
